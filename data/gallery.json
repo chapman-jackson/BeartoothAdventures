@@ -1,0 +1,131 @@
+{
+    "gallery":[
+        {
+            "type":"animal",
+            "imageURL":"https://raw.githubusercontent.com/chapman-jackson/BeartoothAdventures/main/images/mountain-goat.jpeg",
+            "caption":"Mountain Goat",
+            "description":"Mountain goats are native to the mountainous regions of North America. They are well suited to climb steep, rocky terrain. They have thick, white coats that allow them to blend in with the snow and stay warm in the winter. Mountain goats are herbivores, which means their diet consists of plants.",
+            "safetyinfo":"Mountain goats may charge to protect their territory, their young, or if they feel threatened.  The National Park Service recommands maintaining a minimum distance of 50 meters from the animal"
+        },
+
+        {
+            "type":"animal",
+            "imageURL":"https://raw.githubusercontent.com/chapman-jackson/BeartoothAdventures/main/images/chipmunk.jpeg",
+            "caption":"Chipmunk",
+            "description":"Chipmunks are a commonly found rodent in North America. The chipmunkss found at a reststop in the Beartooth Pass will take unsalted seeds and uts out of your hand if you offer some. This is a fun activity for all ages because everyone can have a close interaction with wildlife.",
+            "safetyinfo":"Even though the chipmunks at the pullout are comfortable around humans, they are still wild animals. Exercise caution if you choose to feed them to reduce the risk of being bitten."
+        },
+
+        {
+            "type":"animal",
+            "imageURL":"https://raw.githubusercontent.com/chapman-jackson/BeartoothAdventures/main/images/squirrel.jpeg",
+            "caption":"Squirrel",
+            "description":"Squirrels are a commonly found rodent in North America. The squirrels found at a reststop in the Beartooth Pass will take unsalted seeds and uts out of your hand if you offer some. This is a fun activity for all ages because everyone can have a close interaction with wildlife.",
+            "safetyinfo":"Even though the squirrels at the pullout are comfortable around humans, they are still wild animals. Exercise caution if you choose to feed them to reduce the risk of being bitten."
+        },
+
+        {
+            "type":"animal",
+            "imageURL":"https://raw.githubusercontent.com/chapman-jackson/BeartoothAdventures/main/images/moose.jpeg",
+            "caption":"Moose",
+            "description":"The moose is the largest member of the deer family. An adult moose can weigh between 800 and 1,600 pounds. They can also stand between five to seven feet tall. They are herbivores, which means their diet consists of plants. They prefer living alone near area with lots of water nearby.",
+            "safetyinfo":"Moose are wild animals that prefer to live alone. They may charge at you if you are deemed a threat or if a cow is protecting a calf. The National Park Service recommands maintaining a minimum distance of 50 meters from the animal. "
+        },
+
+        {
+            "type":"animal",
+            "imageURL":"https://raw.githubusercontent.com/chapman-jackson/BeartoothAdventures/main/images/yellow-belly-marmot.jpeg",
+            "caption":"Yellow-Bellied Marmot",
+            "description":"The yellow-ballied marmot is in the same animal family as squirrels and chipmunks. Their diet mainly consists of plants and seeds. They live in burrown which are dug in rocky areas at a high altitude.",
+            "safetyinfo":"Yellow-Bellied Marmots are wild animals. Feeding them can cause them to be aggressive toward humans. Treat them with respect and enjoy seeing them from a distance."
+        },
+
+        {
+            "type":"animal",
+            "imageURL":"https://raw.githubusercontent.com/chapman-jackson/BeartoothAdventures/main/images/brown-bear.jpeg",
+            "caption":"Brown Bear",
+            "description":"Brown bears are omnivorous mammals found throughout North America. They can weigh between 300 or 1,500 pounds. They are mostly solitary and hibernate during the winter.",
+            "safetyinfo":"Brown Bears can be aggressive, especially if they are young males or a mother with cubs. The National Park Service recommends maintaining a minimum distance of 90 meters between you and the bear."
+        },
+
+        {
+            "type":"geograpical",
+            "imageURL":"https://raw.githubusercontent.com/chapman-jackson/BeartoothAdventures/main/images/lake-creek-falls.jpeg",
+            "caption":"Lake Creek Falls",
+            "description":"Lake Creek Falls is a short distance from a pullout on the Chief Joseph Highway. Depending on the amount of snowfall from the previous winter, the waterflow can be very intense.",
+            "safetyinfo":"The trail that leads to it is paved. If you are with children, make sure they stay on the paved trail bause the terrain around the waterfall is rocky and the water flows very fast."
+        },
+
+        {
+            "type":"geograpical",
+            "imageURL":"https://raw.githubusercontent.com/chapman-jackson/BeartoothAdventures/main/images/chief-joseph-bridge.jpeg",
+            "caption":"A view over the Chief Joseph Highway bridge",
+            "description":"Looking over this bridge on the Chief Jospeph Highway is not for the faint of heart. This bridge offers an amazing view of a canyon that is hundreds of feet deep with a river that runs through the bottom. This is a great place to stop at if you are a photographer or if you want to conquer your fear of heights.x",
+            "safetyinfo":"Stay behind the guard rails on the bridge and don't hold anything over the edge you are not willing to lose."
+        },
+
+        {
+            "type":"geographical",
+            "imageURL":"https://raw.githubusercontent.com/chapman-jackson/BeartoothAdventures/main/images/scenic-pullout-clouds.jpeg",
+            "caption":"A view of clouds coming through the mountains from a scenic pullout",
+            "description":"The Beartooth Mountains are high enough in elevation that you might be able to see clouds moving between them.",
+            "safetyinfo":"There is occasional rain in the Beartooth Mountains which could make the Beartooth Pass or the terrain you might be on slippery."
+        },
+
+        {
+            "type":"geographical",
+            "imageURL":"https://raw.githubusercontent.com/chapman-jackson/BeartoothAdventures/main/images/switchback.jpeg",
+            "caption":"A view of a switchback in the Beartooth Highway",
+            "description":"Switchbacks are sharp turns that lead up or down a mountain. There are many throughout the Beartooth Pass. One game you can do with them is count how many there are.",
+            "safetyinfo":"Switchbacks involve sharp turns, so approach them slowly and carefully until you complete the turn."
+        },
+
+        {
+            "type":"geographical",
+            "imageURL":"https://raw.githubusercontent.com/chapman-jackson/BeartoothAdventures/main/images/lily-lake.jpeg",
+            "caption":"Lily Pad Lake",
+            "description":"This lake got its name because lily pads grow in it. There are hiking trails that go around the lake. Fishing is possible, but the lily pads make that difficult.",
+            "safetyinfo":"This body of water is deep. Make sure children stay away from the shore. Swimming is not advisable due to the lily pads growing in the lake."
+        },
+
+        {
+            "type":"flowers",
+            "imageURL":"https://raw.githubusercontent.com/chapman-jackson/BeartoothAdventures/main/images/scarlet-flax.jpeg",
+            "caption":"Scarlet Flax",
+            "description": "In the Beartooth Mountains, these flowers are low to the ground because they have limited time to grow before the climate becomes too harsh.",
+            "safetyinfo":"These flowers don't grow high and they are and easy to step on. Please be mindful when walking through a flower field so others can enjoy them too."
+        },
+
+        {
+            "type":"flowers",
+            "imageURL":"https://raw.githubusercontent.com/chapman-jackson/BeartoothAdventures/main/images/white-daisy.jpeg",
+            "caption":"White Daisy",
+            "description":"The daisy is a resilient flower that can grow in many environments. The most common color for a daisy is white, but they can also be red, pink, or purple. They often grow in mats in harsher environments. In the Beartooth Mountains, these flowers are low to the ground because they have limited time to grow before the climate becomes too harsh.",
+            "safetyinfo":"These flowers don't grow high and they are and easy to step on. Please be mindful when walking through a flower field so others can enjoy them too."
+        },
+
+        {
+            "type":"flowers",
+            "imageURL":"https://raw.githubusercontent.com/chapman-jackson/BeartoothAdventures/main/images/yellow-purslane.jpeg",
+            "caption":"Yellow Purslane",
+            "description":"Yellow purslane is a resilient flower that is well-adapted to harsh climates. It thrives in sunny areas, even if the soil is rocky or disturbed. They often grow in mats. In the Beartooth Mountains, these flowers are low to the ground because they have limited time to grow before the climate becomes too harsh.",
+            "safetyinfo":"These flowers don't grow high and they are and easy to step on. Please be mindful when walking through a flower field so others can enjoy them too."
+        },
+
+        {
+            "type":"flowers",
+            "imageURL":"https://raw.githubusercontent.com/chapman-jackson/BeartoothAdventures/main/images/forget-me-nots.jpeg",
+            "caption":"Forget-Me-Nots",
+            "description":"Forget-me-nots, also known as myosotis, are native to Europe, Asia, and North America. It growns in locations such as woodlands and streams. In the Beartooth Mountains, these flowers are low to the ground because they have limited time to grow before the climate becomes too harsh.",
+            "safetyinfo":"These flowers don't grow high and they are and easy to step on. Please be mindful when walking through a flower field so others can enjoy them too."
+        },
+
+        {
+            "type":"flowers",
+            "imageURL":"https://raw.githubusercontent.com/chapman-jackson/BeartoothAdventures/main/images/blue-flax.jpeg",
+            "caption":"Blue Flax",
+            "description":"The blue flax is a perennial flower that is native to North America. It grows in locations such as praries, meadows, and dry slopes. In the Beartooth Mountains, these flowers are low to the ground because they have limited time to grow before the climate becomes too harsh.",
+            "safetyinfo":"These flowers don't grow high and they are and easy to step on. Please be mindful when walking through a flower field so others can enjoy them too."
+        }
+    ]
+}
