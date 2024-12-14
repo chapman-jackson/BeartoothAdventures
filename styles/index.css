@@ -15,10 +15,14 @@ picture img {
 }
 
 #tally-box{
-    height: 40px;
-    width: 450px;
+    height: 44px;
 }
+
 @media screen and (min-width: 64rem) {
+
+    #tally-box{
+        width: 450px;
+    }
 
     main{
         display: grid;

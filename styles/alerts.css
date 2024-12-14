@@ -13,3 +13,11 @@
 p{
     text-align: center;
 }
+
+
+.email, .name, .number, .calendar { 
+flex: 1; 
+width: 100%;
+max-width: 350px;
+min-width: 250px;
+}
