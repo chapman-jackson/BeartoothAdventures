@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="WDD 231 - Web Frontend Development 1 - Beartooth Adventures final assignment">
+    <meta property="og:type" content="website"> 
+    <meta property="og:url" content=""> 
+    <meta property="og:image" content="https://raw.githubusercontent.com/chapman-jackson/BeartoothAdventures/main/images/ba-icon.jpeg">
+    <meta name="title" content="Beartooth Adventures Home Page">
+    <meta name="author" content="Jackson T. Chapman">
+    <meta name="description" content="Home page contains introductory information about the Beartooth Mountains, a place to tally how many animal you find, and an explanation of what you can find on the site">
+    <title>Beartooth Adventures Home Page</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <script src="scripts/base.js" defer></script>
+    <script src="scripts/index.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="images/ba-icon.jpeg" alt="Beartooth Adventures icon"  class="header-icon">
+
+        <h1>Beartooth Adventures</h1>
+
+        <button type ="button" id="hamburger-button" aria-label="Open navigation menu"></button>
+        <nav class="navigation">
+            <a href="index.html" class="wayfinding">Home</a>
+            <a href="alerts.html">Get Road Closure alerts</a>
+            <a href="discover.html">Discover</a>
+        </nav>
+    </header>
+    <main>
+        <picture><source srcset="images/top-of-world.jpg" media="(min-width: 64rem)">
+        <img src="images/top-of-world-small.jpg" alt="Beartooth Mountains panorama"></picture>
+        <div id="paragraph-one">
+            <h2>Beartooth Mountains Introduction</h2>
+            <p>The Beartooth Mountain Range spans through parts of southern Montana and northern Wyoming.</p>
+            <p>
+                The Beartooth Highway is a popular stretch of road that was paved    through the Beartooth Mountain Range.
+                It offers breathtaking views of the mountains, with plenty of pullouts where you can stop and go on a hike, ski down a hill, or simply enjoy the scenery.
+                Depending on the season, you might see waterfalls cascading from snowcaps, and if you're lucky, you might spot mountain goats grazing.
+                The highway also leads to the north entrance of Yellowstone National Park, which is one of the most popular National Parks in the United States.
+            </p>
+        </div>
+
+        <div id="paragraph-two">
+            <h2>Site Content</h2>
+            <p>On this site, you will find information about animals you might encounter, geographical features to see, and how to stay safe while exploring the mountain range.</p>
+            <p>On the Get Road Closure Alerts page, you can sign up to receive alerts for when the Department of Transportation closes Beartooth Highway. The highway can close for a variety of reasons, such as receiving 20 feet of snowfall, landslides, or flooding that destroys sections of the road.</p>
+
+       </div>
+
+       <div id="animal-counter">
+            <h3>Record the animals you find here!</h3>
+            <p>If you spot some animals during your trip, use this text box to record what kind and how many of each animal you find.</p>
+            <form id="record-animals">
+                <input type="text" name="text-box" id="tally-box">
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p><span id="currentyear"></span></p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>

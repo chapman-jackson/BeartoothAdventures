@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="WDD 231 - Web Frontend Development 1 - Beartooth Adventures final assignment">
+    <meta property="og:type" content="website"> 
+    <meta property="og:url" content=""> 
+    <meta property="og:image" content="https://raw.githubusercontent.com/chapman-jackson/BeartoothAdventures/main/images/ba-icon.jpeg">
+    <meta name="title" content="Beartooth Adventures Discover Page">
+    <meta name="author" content="Jackson T. Chapman">
+    <meta name="description" content="Discover Page has a photo gallery and a sidebar with information about the Mountains">
+    <title>Beartooth Adventures Discover Page</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/discover.css">
+    <script src="scripts/base.js" defer></script>
+    <script src="scripts/discover.js" defer></script>
+    <script src="scripts/weatherinfo.js" type="module"></script>
+    <script src="scripts/getweatherapidata.js" type="module"></script>
+
+</head>
+<body>
+    <dialog id="gallery-dialogue"></dialog>
+    <header>
+        <img src="images/ba-icon.jpeg" alt="Beartooth Adventures icon" class="header-icon">
+        <h1>Beartooth Adventures</h1>
+        <button type="button" id="hamburger-button" aria-label="Open navigation menu"></button>
+        <nav class="navigation">
+            <a href="index.html">Home</a>
+            <a href="alerts.html">Get Road Closure alerts</a>
+            <a href="discover.html" class="wayfinding">Discover</a>
+        </nav>
+    </header>
+    <main>
+        <div class="discover-content">
+            <div id="sidebar">
+                <div class="cards">
+                    <p><span id="welcome-message"></span></p>
+                </div>
+                <div class="cards">
+                    <h2>Beartooth Region:</h2>
+                    <ul>
+                        <li>Area: 34,375 mi²</li>
+                        <li>Timezone: Mountain Time</li>
+                        <li>Elevation: 10,947 feet above sea level</li>
+                    </ul>
+                </div>
+                <div class="cards">
+                    <h3>Beartooth Pass opening and closure dates</h3>
+                    <p>In order to make travel on the Beartooth Pass safer, the Montana Department of Transportation closes the pass during the winter for snow removal.</p>
+                    <ul>
+                        <li>Open: May 23, 2025</li>
+                        <li>Closed: between October 10-15, 2025</li>
+                    </ul>
+                    <p id="mini-text">(These opening and closing dates assume that there are no weather events that would disrupt travel.)</p>
+                </div>
+                <div class="cards">
+                    <h3> Current Weather</h3>
+                    <figure>
+                        <img id="weather-icon" src="images/placeholder.png" alt="Weather icon">
+                        <figcaption id="captionDesc"></figcaption>
+                    </figure>
+                    <p>Temperature: <span id="temperature"></span></p>
+                    <p>Wind speed: <span id="wind-speed"></span></p>
+                    <p>High: <span id="tempHigh"></span></p>
+                    <p>Low: <span id="tempLow"></span></p>                       
+                </div>
+            </div>
+            <div id="gallery">
+                <div id="buttons">
+                    <button type="button" id="default-button" aria-label="reset gallery to default">Default display</button>
+                    <button type="button" id="filter-animal-button" aria-label="show animal images only">Show Animals</button>
+                    <button type="button" id="filter-flower-button" aria-label="show flower images only">Show Flowers</button>
+                    <button type="button" id="filter-geographical-button" aria-label="show geographical location images only">Show Geographical Locations</button>
+                </div>
+                <div id="image-container"></div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p><span id="currentyear"></span></p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>

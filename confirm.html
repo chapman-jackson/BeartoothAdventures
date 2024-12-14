@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="WDD 231 - Web Frontend Development 1 - Beartooth Adventures final assignment">
+    <meta property="og:type" content="website"> 
+    <meta property="og:url" content=""> 
+    <meta property="og:image" content="https://raw.githubusercontent.com/chapman-jackson/BeartoothAdventures/main/images/ba-icon.jpeg">
+    <meta name="title" content="Beartooth Adventures Confirmation Page">
+    <meta name="author" content="Jackson T. Chapman">
+    <meta name="description" content="Displays the information the user entered when signing up for road clusure alerts">
+    <title>Beartooth Adventures Confirmation Page</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/confirm.css">
+    <script src="scripts/base.js" defer></script>
+    <script src="scripts/confirm.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="images/ba-icon.jpeg" alt="Beartooth Adventures icon"  class="header-icon">
+
+        <h1>Beartooth Adventures</h1>
+
+        <button type ="button" id="hamburger-button" aria-label="Open navigation menu"></button>
+
+        <nav class="navigation">
+            <a href="index.html">Home</a>
+            <a href="alerts.html">Get Road Closure alerts</a>
+            <a href="discover.html">Discover</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Thanks for signing up.</h1>
+        <p><span id="display-time"></span></p>
+        <div id="display-results"></div>
+    </main>
+    <footer>
+        <p><span id="currentyear"></span></p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>

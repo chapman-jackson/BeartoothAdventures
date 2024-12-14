@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="WDD 231 - Web Frontend Development 1 - Beartooth Adventures final assignment">
+    <meta property="og:type" content="website"> 
+    <meta property="og:url" content=""> 
+    <meta property="og:image" content="https://raw.githubusercontent.com/chapman-jackson/BeartoothAdventures/main/images/ba-icon.jpeg">
+    <meta name="title" content="Beartooth Adventures Alert sign up page">
+    <meta name="author" content="Jackson T. Chapman">
+    <meta name="description" content="Page contains a form for users to use for signing up for road closure alerts.">
+    <title>Beartooth Adventures Alert sign up page</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/alerts.css">
+    <script src="scripts/base.js" defer></script>
+    <script src="scripts/timestamp.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="images/ba-icon.jpeg" alt="Beartooth Adventures icon"  class="header-icon">
+
+        <h1>Beartooth Adventures</h1>
+    
+        <button type ="button" id="hamburger-button" aria-label="Open navigation menu"></button>
+
+        <nav class="navigation">
+            <a href="index.html">Home</a>
+            <a href="alerts.html" class="wayfinding">Get Road Closure alerts</a>
+            <a href="discover.html">Discover</a>
+        </nav>
+    </header>
+    <main>
+        <p>The Beartooth Highway can close at any time for a variety of reasons. Sign up here to receive alerts for when Beartooth Highway closes.</p>
+
+        <form action="confirm.html" method="get" id="alert-form">
+            <input type="hidden" name="timestamp" id="timestamp">
+            <p>Enter your first name (Optional)</p>
+            <label><input type="text" name="firstName" class="name" autocomplete="given-name"></label>
+            <p>Enter your phone number (Required)</p>
+            <label><input type="tel" name="phone" class="number" placeholder="123-234-4567" autocomplete="tel" required></label>
+            <p>Enter your email (Required)</p>
+            <label><input type="email" name="email" class="email" placeholder="johndoe@example.com" autocomplete="email" required></label>
+            <p>Choose a date to stop receiving alerts (Required)</p>
+            <label><input type="date" name="end-date" class="calendar" required></label>
+            <input type="submit" value="Sign up for Alerts" id="submit-button" aria-label="Sign up for Alerts">
+        </form>
+    </main>
+    <footer>
+        <p><span id="currentyear"></span></p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
