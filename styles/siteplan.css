@@ -1,0 +1,43 @@
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1, h2, h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#color-one{
+    background-color: forestgreen;
+    margin-bottom: 1%;
+}
+
+#color-two{
+    background-color: palegoldenrod;
+
+}
+
+#color-one, #color-two{
+    border: 5px solid black;
+    width: 10%;
+    border: 5px solid black;
+}
+
+header, footer{
+    text-align: center;
+    background-color: forestgreen;
+    padding: 20px;
+}
+
+main{
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    text-align: center;
+    background-color: palegoldenrod;
+}
+
+#wireframes{
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    padding-bottom: 10%;
+}

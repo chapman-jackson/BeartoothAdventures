@@ -1,0 +1,56 @@
+#mini-text{
+    font-size: 0.8rem;
+}
+
+.discover-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.cards{
+    border: 5px solid black;
+    border-radius: 5%;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    background-color: lightgrey;
+}
+
+#buttons{
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+img{
+    border: 5px solid black;
+    border-radius: 20%;
+}
+
+#image-container{
+    text-align: center;
+}
+
+button{
+    border-radius: 20%;
+    background-color: palegoldenrod;
+}
+@media screen and (min-width: 64rem) { 
+
+    .discover-content{
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+    }
+    
+    .sidebar{
+        grid-column: 1;
+        padding-top: 5%;
+        padding-left: 5%;
+    }
+
+    .gallery{
+        grid-column: 2;
+
+    }
+    
+}
