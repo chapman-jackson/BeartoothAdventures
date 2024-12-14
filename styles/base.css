@@ -29,7 +29,6 @@ p {
 
 h1, h2, h3, h4{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 1.5rem;
 }
 
 .navigation {
@@ -87,6 +86,11 @@ nav a:hover {
     color: black;
     background-color: slategrey;
     border: 5px solid black;
+}
+@media screen and (max-width: 64rem) {
+    #header-title{
+        font-size: 1rem;
+    }
 }
 @media screen and (min-width: 64rem) { 
 
