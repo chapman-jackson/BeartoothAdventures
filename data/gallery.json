@@ -4,8 +4,8 @@
             "type":"animal",
             "imageURL":"https://raw.githubusercontent.com/chapman-jackson/BeartoothAdventures/main/images/mountain-goat.jpeg",
             "caption":"Mountain Goat",
-            "description":"Mountain goats are native to the mountainous regions of North America. They are well suited to climb steep, rocky terrain. They have thick, white coats that allow them to blend in with the snow and stay warm in the winter. Mountain goats are herbivores, which means their diet consists of plants.",
-            "safetyinfo":"Mountain goats may charge to protect their territory, their young, or if they feel threatened.  The National Park Service recommands maintaining a minimum distance of 50 meters from the animal"
+            "description":"Mountain goats are native to the mountainous regions of North America. They are adept at climbing steep, rocky terrain. They have thick, white coats that allow them to blend in with the snow and stay warm in the winter. Mountain goats are herbivores, which means their diet consists of plants.",
+            "safetyinfo":"Mountain goats may charge to protect their territory, their young, or if they feel threatened.  The National Park Service recommends maintaining a minimum distance of 50 meters from the animal"
         },
 
         {
@@ -29,7 +29,7 @@
             "imageURL":"https://raw.githubusercontent.com/chapman-jackson/BeartoothAdventures/main/images/moose.jpeg",
             "caption":"Moose",
             "description":"The moose is the largest member of the deer family. An adult moose can weigh between 800 and 1,600 pounds. They can also stand between five to seven feet tall. They are herbivores, which means their diet consists of plants. They prefer living alone near area with lots of water nearby.",
-            "safetyinfo":"Moose are wild animals that prefer to live alone. They may charge at you if you are deemed a threat or if a cow is protecting a calf. The National Park Service recommands maintaining a minimum distance of 50 meters from the animal. "
+            "safetyinfo":"Moose are wild animals that prefer to live alone. They may charge at you if you are deemed a threat or if a cow is protecting a calf. The National Park Service recommends maintaining a minimum distance of 50 meters from the animal. "
         },
 
         {
@@ -60,7 +60,7 @@
             "type":"geograpical",
             "imageURL":"https://raw.githubusercontent.com/chapman-jackson/BeartoothAdventures/main/images/chief-joseph-bridge.jpeg",
             "caption":"A view over the Chief Joseph Highway bridge",
-            "description":"Looking over this bridge on the Chief Jospeph Highway is not for the faint of heart. This bridge offers an amazing view of a canyon that is hundreds of feet deep with a river that runs through the bottom. This is a great place to stop at if you are a photographer or if you want to conquer your fear of heights.x",
+            "description":"Looking over this bridge on the Chief Jospeph Highway is not for the faint of heart. This bridge offers an amazing view of a canyon that is hundreds of feet deep with a river that runs through the bottom. This is a great place to stop at if you are a photographer or if you want to conquer your fear of heights.",
             "safetyinfo":"Stay behind the guard rails on the bridge and don't hold anything over the edge you are not willing to lose."
         },
 
