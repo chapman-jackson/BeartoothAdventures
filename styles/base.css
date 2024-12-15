@@ -45,7 +45,7 @@ h1, h2, h3, h4{
 }
 
 #hamburger-button {
-    font-size: 1.4rem;
+    font-size: 2rem;
     border: 0;
     background: none;
     color: black;
@@ -59,6 +59,7 @@ h1, h2, h3, h4{
 }
 
 #hamburger-button.open::before {
+    font-size: 1.5rem;
     content: "❌";
 }
 
